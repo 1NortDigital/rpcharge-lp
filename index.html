@@ -71,7 +71,7 @@ p{color:var(--muted)}
 /* HEADER */
 .site-header{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.94);border-bottom:1px solid rgba(220,228,238,.8);backdrop-filter:blur(16px)}
 .header-inner{display:grid;grid-template-columns:auto 1fr auto;align-items:center;min-height:84px;gap:32px}
-.brand img{width:150px;height:auto}
+.brand img{width:96px;height:auto}
 .main-nav{display:flex;justify-content:center;gap:28px}
 .main-nav a{position:relative;font-size:.92rem;font-weight:700;color:var(--text)}
 .main-nav a::after{position:absolute;right:0;bottom:-8px;left:0;height:2px;content:"";background:var(--green);transform:scaleX(0);transition:transform .2s ease}
@@ -237,7 +237,7 @@ select optgroup{font-weight:800;color:var(--navy)}
 /* FOOTER */
 .site-footer{padding:64px 0 24px;color:rgba(255,255,255,.75);background:var(--navy-dark)}
 .footer-grid{display:grid;grid-template-columns:1.4fr repeat(2,1fr);gap:48px}
-.footer-brand img{width:190px;margin-bottom:18px;padding:10px;background:var(--white);border-radius:12px}
+.footer-brand img{width:180px;height:auto;margin-bottom:18px;padding:12px 14px;background:var(--white);border-radius:12px}
 .site-footer p{color:rgba(255,255,255,.7)}
 .site-footer strong{display:block;margin-bottom:14px;color:var(--white)}
 .site-footer a,.site-footer .ft-line{display:block;margin-bottom:8px;font-size:.85rem}
@@ -279,7 +279,7 @@ select optgroup{font-weight:800;color:var(--navy)}
 @media (max-width:720px){
   .container{width:min(calc(100% - 32px),var(--container))}
   .section{padding:72px 0}
-  .brand img{width:120px}
+  .brand img{width:80px}
   .header-inner{min-height:72px}
   .main-nav.is-open{top:72px}
   h1{font-size:clamp(2.1rem,9vw,3rem)}
@@ -316,7 +316,7 @@ End Google Tag Manager (noscript) -->
 <header class="site-header">
   <div class="container header-inner">
     <a class="brand" href="#" aria-label="RP Charge - Início">
-      <img src="assets/logo-rp-charge.png" alt="Logo RP Charge — Carregadores Elétricos e Energia Solar" width="480" height="320">
+      <img src="assets/logo-rp-charge.png" alt="Logo RP Charge — Carregadores Elétricos e Energia Solar" width="355" height="240">
     </a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
       <span></span><span></span><span></span>
@@ -694,7 +694,7 @@ End Google Tag Manager (noscript) -->
 <footer class="site-footer">
   <div class="container footer-grid">
     <div class="footer-brand">
-      <img src="assets/logo-rp-charge.png" alt="RP Charge" width="480" height="320" loading="lazy">
+      <img src="assets/logo-rp-charge.png" alt="RP Charge" width="355" height="240" loading="lazy">
       <p>Projetos completos em mobilidade elétrica, energia solar e engenharia elétrica.</p>
     </div>
     <div>
